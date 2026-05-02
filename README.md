@@ -1,5 +1,9 @@
 ## 2024EB02512
 
+## GitHub Repository
+
+- [github.com/kartavya37/Library-Assignment](https://github.com/kartavya37/Library-Assignment)
+
 # Spring Boot CRU Assignment Report
 
 ## Project Overview
@@ -119,6 +123,9 @@ On startup, `DataInitializer` (a `CommandLineRunner`) inserts **10 Authors and 1
 ### Duplicate Author Error
 ![Duplicate author error](docs/screenshots/08-authors-duplicate-error.png)
 
+### H2 Console — Inner Join Query
+
+![H2 inner join](docs/screenshots/09-h2-console.png)
 
 ## Challenges and Solutions
 - **JSP under Spring Boot 3 / Jakarta namespace.** Modern Spring Boot uses the `jakarta.*` namespace, so the older `javax.servlet.jsp.jstl` artifacts no longer work. Resolved by adding `tomcat-embed-jasper` and the **Jakarta** JSTL artifacts (`jakarta.servlet.jsp.jstl-api` + `org.glassfish.web:jakarta.servlet.jsp.jstl`).
